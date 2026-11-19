@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded and prepared training datasets
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Generated demo images
+example_data/
+
+# Pipeline outputs and generated models
+output/
+component_experience.json
+predictions.csv
+*.sqlite3
+
+# Temporary files and local logs
+*.log
+*.tmp
+*.temp
+.streamlit/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
